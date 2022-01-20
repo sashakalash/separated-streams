@@ -3,5 +3,5 @@ import { AnimalTypeEnum } from './enums/animalType.enum';
 
 export class Cat implements IAnimal {
   public type: AnimalTypeEnum = AnimalTypeEnum.CAT;
-  constructor(public title: string) {}
+  constructor(public title: string, public tabyCat?: boolean, public age?: number, public breed?: string ) {}
 }
